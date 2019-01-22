@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <!-- Simple SPA Web App with Minimal Dependencies and No Build Step -->
+    <title>20 Questions</title>
+    <!-- CSS Reset -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@4.2.1/dist/css/bootstrap-reboot.css" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- Feathers Client + Socket Dependencies -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/core-js/2.1.4/core.min.js"></script>
+    <script src="//unpkg.com/@feathersjs/client@^3.0.0/dist/feathers.js"></script>
+    <script src="//unpkg.com/socket.io-client@1.7.3/dist/socket.io.js"></script>
+  </head>
+  <body>
+    <div class="container" id="app">
+      <router />
+    </div>
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
